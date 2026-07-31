@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "templateId": "professional-service-system",
+  "name": "专业服务方法系统",
+  "description": "帮助专业服务者用明确人群、实际问题和可观察结果建立内容定位。",
+  "visibility": "public",
+  "creatorDisplayName": "",
+  "sourceTemplateId": null,
+  "version": 1,
+  "usageTerms": "MIT",
+  "applicableCreators": [
+    "顾问",
+    "教练",
+    "营养师",
+    "设计师",
+    "其他专业服务者"
+  ],
+  "audienceModel": {
+    "identity": "存在明确问题、需要专业方法但不需要疾病诊疗的人群",
+    "stage": "尝试过常见建议，但难以在真实生活中持续执行",
+    "commonPainPoints": [
+      "信息很多但无法形成系统",
+      "通用方案不适合个人情境",
+      "反复开始又中断"
+    ],
+    "desiredOutcomePattern": "建立一套可执行、可复盘、可根据个人情境调整的方法"
+  },
+  "strategyType": "authority",
+  "positioningPattern": "用案例诊断和可复用方法展示专业判断，并自然承接咨询服务",
+  "contentPillarTemplates": [
+    {
+      "name": "问题诊断",
+      "anglePrompt": "解释表面问题背后的具体断点",
+      "subtopicPrompts": ["常见误区", "失败模式", "判断步骤"]
+    },
+    {
+      "name": "方法系统",
+      "anglePrompt": "把专业服务方法拆成可理解但不替代个案服务的框架",
+      "subtopicPrompts": ["评估", "计划", "执行", "复盘"]
+    },
+    {
+      "name": "匿名案例",
+      "anglePrompt": "在保护隐私的前提下展示问题、判断和调整过程",
+      "subtopicPrompts": ["初始状态", "关键判断", "调整过程", "适用边界"]
+    }
+  ],
+  "recommendedPrototypes": ["opinion", "tutorial", "story"],
+  "sampleTopics": [
+    "为什么正确的方法仍然可能执行不下去",
+    "专业评估真正需要了解哪些信息",
+    "一个常见失败案例暴露了什么系统问题",
+    "什么时候通用教程不够，需要个性化建议",
+    "如何判断一个方法是在解决问题还是制造焦虑"
+  ],
+  "setupQuestions": [
+    "你服务的最具体人群是谁？",
+    "他们最常在哪个环节失败？",
+    "你有哪些可以公开的专业证据？",
+    "哪些内容或承诺必须明确排除？"
+  ],
+  "sanitizationConfirmed": true
+}
+
