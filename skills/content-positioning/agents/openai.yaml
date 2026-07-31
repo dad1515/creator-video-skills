@@ -1,0 +1,4 @@
+interface:
+  display_name: "内容定位"
+  short_description: "Position and validate personal creator content strategies"
+  default_prompt: "使用 $content-positioning 诊断我的创作者定位，并生成三个具有实质差异的策略。"
