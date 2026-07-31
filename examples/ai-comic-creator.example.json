@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "templateId": "ai-comic-beginner-path",
+  "name": "AI漫剧全流程入门",
+  "description": "帮助零基础或流程受阻的个人创作者完成第一部可发布的AI漫剧。",
+  "visibility": "public",
+  "creatorDisplayName": "",
+  "sourceTemplateId": null,
+  "version": 1,
+  "usageTerms": "MIT",
+  "applicableCreators": [
+    "AI漫剧教学创作者",
+    "AI视频教程创作者"
+  ],
+  "audienceModel": {
+    "identity": "想学习AI漫剧制作的个人创作者",
+    "stage": "零基础，或会使用部分工具但无法完成全流程",
+    "commonPainPoints": [
+      "不知道从哪里开始",
+      "角色和场景难以保持一致",
+      "会单点工具但无法完成成片"
+    ],
+    "desiredOutcomePattern": "独立完成一部60秒以上、角色与场景基本统一、包含配音字幕并可发布的AI漫剧"
+  },
+  "strategyType": "accessible",
+  "positioningPattern": "用完整项目带领新手从碎片化工具学习走向可发布成片",
+  "contentPillarTemplates": [
+    {
+      "name": "完整制作流程",
+      "anglePrompt": "把一部作品从创意到发布拆成可执行步骤",
+      "subtopicPrompts": ["剧本", "分镜", "角色", "场景", "视频生成", "配音字幕", "剪辑发布"]
+    },
+    {
+      "name": "一致性难题",
+      "anglePrompt": "围绕角色、服装、场景和镜头连续性解决实际问题",
+      "subtopicPrompts": ["角色统一", "场景连续", "镜头衔接", "失败修复"]
+    },
+    {
+      "name": "作品复盘",
+      "anglePrompt": "展示真实作品的决策、失败和改进过程",
+      "subtopicPrompts": ["前后对比", "制作成本", "时间拆解", "质量检查"]
+    }
+  ],
+  "recommendedPrototypes": ["tutorial", "story"],
+  "sampleTopics": [
+    "零基础做第一部AI漫剧，需要依次完成哪七步",
+    "为什么同一个角色换镜头就变脸",
+    "一个场景如何连续生成多个可用镜头",
+    "从分镜到成片：60秒AI漫剧完整复盘",
+    "只会AI绘图，下一步怎样走到视频成片"
+  ],
+  "setupQuestions": [
+    "你已经掌握哪些AI创作工具？",
+    "你最能解决的AI漫剧难点是什么？",
+    "你希望用户最终完成什么规格的作品？"
+  ],
+  "sanitizationConfirmed": true
+}
+
